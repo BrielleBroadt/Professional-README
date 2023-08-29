@@ -20,6 +20,3 @@ function generateMarkdown(data) {
 module.exports = generateMarkdown;
 
 
-git remote add origin https://github.com/BrielleBroadt/Professional-README.git
-git branch -M main
-git push -u origin main
