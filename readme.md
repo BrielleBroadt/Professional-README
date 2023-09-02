@@ -26,7 +26,8 @@
 No installation for this website is required
 
 ## Usage
-Video
+[Untitled_ Sep 2, 2023 12_19 PM.webm](https://github.com/BrielleBroadt/Professional-README/assets/135186013/cf12122e-f2de-42bf-abfe-ea84f9c31e5f)
+
 
 ## Screenshot
 
