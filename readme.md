@@ -1,6 +1,7 @@
-# 
+# Proffesional Read Me Generator
 
 ## Table of Contents
+
 
 1. [Description of Professional README](#description)
 
@@ -15,10 +16,10 @@
 6. [Features](#features)
 
 ## Description
+* Developer utilized starter code provided for the project
+* Developer worked in the index.cjs file to add packages for the application, create the qiestions for user input, create a function to write the file for the read me, and initnfunction to initialize the app
+* Generate Mark doen file was where most of the code was created to create what defines and makes the read me interactive.
 
-
-* 
-* 
 
 
 ## Installation
