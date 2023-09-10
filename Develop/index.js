@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
         if (err) {
             console.error('Error writing to file:', err);
         } else {
-            console.log('File "${fileName}" has been successfully written.');
+            console.log(`File ${fileName} has been successfully written.`);
         }
         
     });
