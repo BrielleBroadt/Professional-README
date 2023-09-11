@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages for application to run
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require ('./utils/generateMarkdown.cjs')
-// TODO: Create an array of questions for user input
+// questions for input for apllication
 const questions = [
     {
         type: 'input',
@@ -52,7 +52,7 @@ const questions = [
         message: 'Enter your email address:',
     },
 ];
-// TODO: Create a function to write README file
+// Function to write the readme file
 function writeToFile(fileName, data) {
     const filePath = path.join(__dirname, fileName);
 
@@ -65,19 +65,11 @@ function writeToFile(fileName, data) {
         
     });
 }     
-        
-        
-
-
-// TODO: Create a function to initialize app
+// function to initilize the app
 function init() {
     inquirer.prompt(questions)
         .then(answers => {
-    
-
-            // Write README content to file
-            const fileName = 'README.md';
-            writeToFile(fileName,generateMarkdown({...answers}) );
+            writeToFile("./dist/README.MD",generateMarkdown({...answers}) );
         })
         .catch(error => {
             console.error('Error occurred:', error);
